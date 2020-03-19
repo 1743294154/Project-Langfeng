@@ -2,50 +2,43 @@
 <html>
     <head>
         <title>
-            17级作业
+            18级作业展示
         </title>
         <style type="text/css">
             .one{
                 width: 500px;
                 height: 500px;
-                background-color: rgb(255, 0, 0);
-               /* align-items: left;
-                align-self: left;
-                text-align: left;*/
-                text-align:right;
-                
+                background-color:red; 
+               /* align-self: left;  /*align-self+align-self+text-align共同作用*/
+                /*align-self: left;     /*让我们的第二div盒子在第一个div盒子里面左对齐。*/
+                /*text-align: left;       */
+            
+
             }
             .two{
-                
                 width: 400px;
                 height: 400px;
-                background-color: rgb(0, 255, 55);
-                /*align-items: right;
-                align-self: right;
-                text-align: right;*/
-                text-align:left;
-                float: left;
-                
+                background-color: green;
+               float: left;
+
             }
             .three{
                 width: 300px;
                 height: 300px;
                 background-color: yellow;
                 font-size: 15px;
-                color: royalblue;
-                font-weight: bold;
-                text-align:left;
-                float:right;
+                color: blue;
+                font-weight: bolder;
+                float: right;
+                text-align: left;
             }
         </style>
     </head>
     <body>
         <center>
-            <div class="one" align="left" >
-                大
-                <div class="two" align="right">
-                    小
-                    <div class="three" >
+            <div class="one">
+                <div class="two">
+                    <div class="three">
                         我们是通用的吴彦祖
                     </div>
                 </div>
@@ -53,12 +46,15 @@
         </center>
     </body>
 </html>
-<!--
-需要使用三个盒子（div标记）进行嵌套。
+
+
+
+
+
+<!--需要使用三个盒子（div标记）进行嵌套。
 1.最外面的div标记，颜色为红色，在浏览器页面居中
 2.第二个div标记，颜色为绿色，在第一个盒子里面左对齐
 3.第三个div标记，颜色为黄色，在第二个盒子里面右对齐
 4.第三个div标记，内容是：我们是通用的吴彦祖，字体大小：15px，字体颜色为蓝色。左对齐
 5.对所有的字体，进行加粗，要求在这个页面中使用class类选择器
 -->
-
