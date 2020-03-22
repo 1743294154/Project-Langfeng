@@ -1,0 +1,9 @@
+内边距
+什么是内边距
+就是我们一个div标记里面的内容到我们div标记的边框的距离，就是我们的内边距
+格式：padding：属性值（数值）
+	  Padding-top：属性值（数值）
+	  Padding-right：属性值（数值）
+      Padding-left：属性值（数值）
+	  Padding-bottom：属性值（数值）
+ 注意：一般情况下我们这属性值就是用px（像素）做单位
