@@ -1,0 +1,6 @@
+	2.list-style-image属性
+	作用：自定义列表的项目符号，是用图片来代替的。
+	格式：
+		ul｛
+			list-style-image: url(图标地址);
+｝
