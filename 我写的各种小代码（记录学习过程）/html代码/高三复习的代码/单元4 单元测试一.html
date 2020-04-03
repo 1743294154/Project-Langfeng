@@ -7,9 +7,12 @@
 .gundongtiao{
 	overflow: scroll;
 	}
+.two{
+    font-size: 12px;
+    width:100% /*这段代码让textarea标记产生的文本框，占满了td标记的空间。因此在textarea这个标记中设置的cols这个属性就失效了，不起作用了。*/
+}
 </style>
 </head>
-
 <body background="#99CCFF">
 <center>
 <h1>王亚平会员信息</h1>
@@ -61,14 +64,20 @@
      </tr>
      <tr >
      	<td>简历</td>
-        <td colspan="4" class="gundongtiao">
+        <!--<td colspan="4" class="gundongtiao">
         	王亚平，1980年1月生于山东省烟台市福山区，毕业于空军长春飞行学院，中国女航天员。2014年9月15日，太空探索者协会第27届年会在北京闭幕，航天员王亚平被授予年会最佳技术报告奖。<br />
             现为中国人民解放军航天员大队四级航天员，中校军衔，全国青联副主席。
             
+        </td>-->
+        <td colspan="4">
+            <textarea class="two" cols="6" rows="6" style="overflow-y: scroll;">
+                王亚平，1980年1月生于山东省烟台市福山区，毕业于空军长春飞行学院，中国女航天员。
+                2014年9月15日，太空探索者协会第27届年会在北京闭幕，
+                航天员王亚平被授予年会最佳技术报告奖。
+                现为中国人民解放军航天员大队四级航天员，中校军衔，全国青联副主席。
+            </textarea>
         </td>
-     </tr>
-     
-       
+     </tr>  
 </table>
 </center>
 </body>
