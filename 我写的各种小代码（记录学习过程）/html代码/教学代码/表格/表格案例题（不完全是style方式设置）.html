@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            表格案例题
+        </title>
+        <style type="text/css">
+            .one{
+                border-left-color: red;/*设置我们边框的颜色*//*color属性是设置所有的颜色，
+                还包括我们字体的颜色*/
+                border-right-color: green;
+                border-top-color: rgb(251, 255, 5);
+                border-bottom-color: hotpink;
+                
+
+            }
+        </style>
+    </head>
+    <body>
+        <table class="one"  border="1px" width="300px" height="300px" cellspacing="5px" 
+        cellpadding="3px">
+        <!--color这个属性不能再table标记里面使用，只能在css样式（style标记里面）表里面使用
+        才能设置我们表格的边框颜色-->
+            <!--border属性，它是用作设置表格的边框线的宽度！-->
+            <!--cellspacing属性，它是用作设置表格的单元格之间的间距！-->
+            <!--cellpadding属性，它是用作设置表格的内容和单元格边距之间的距离！-->
+            <tr class="one" height="100px" bgcolor="blue" ><!--tr是我们的表格行标记-->
+                <!--bgcolor属性是单元格背景颜色！-->
+                <th  width="100px" ><!--th是我们表格->表头单元格-->
+
+                </th>
+                <th  colspan="2" background="p.jpg">
+                    曾经沧海
+                </th>
+               
+            </tr><!--width是设置宽度，height是设置高度-->
+            <tr  height="100px"  align="center" >
+                <td class="one" width="100px"   >
+                    <!--td标记是我们的表格->数据单元格-->
+                    <!--align属性，是用作水平居中。-->
+                    难为水
+                </td>
+                <td class="one" width="100px">
+
+                </td>
+                <td class="one"  width="100px">
+
+                </td>
+            </tr>
+            <tr  height="100px">
+                <td  class="one" width="100px"><!--td标记是我们的表格->数据单元格-->
+
+                </td>
+                <td class="one" width="100px">
+
+                </td>
+                <td class="one" width="100px">
+                    
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
