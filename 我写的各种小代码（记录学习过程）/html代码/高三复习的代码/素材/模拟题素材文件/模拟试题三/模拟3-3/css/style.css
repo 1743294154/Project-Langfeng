@@ -1,0 +1,27 @@
+@charset "utf-8";
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.bj {
+	background-image: url( url(../images/bj01.jpg));
+	background-repeat: no-repeat;
+}
+.hh {height: 30px;
+}
+.text {
+	font-size: 14px;
+	color: #03F;
+}
+.text1 {
+	line-height: 20px;
+	color: #000;
+}
+#zi {font-size: 13px;
+}
+body,td,th {
+	font-size: 12px;
+	color: #646464;
+}
