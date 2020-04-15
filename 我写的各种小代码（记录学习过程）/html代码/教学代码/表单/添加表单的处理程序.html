@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="ext/html;charset=utf-8">
+        <title>
+            添加表单的处理程序
+        </title>
+        <script language="javascript" type="text/javascript">
+            function temp_test()
+            {
+                if(document.all.myform.name.value="")
+                {
+                    alert("please input your username!")
+                    document.all.myform.name.focus();
+                    return false;
+                }
+                if(document.all.myform.password.value="")
+                {
+                    alert("please input your password!")
+                    document.all.myform.password.focus();
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="myform" method="POST" action="exp_2.jsp" onsubmit="return(temp_test())">
+            用户名：<input name="name"><br>
+                密&nbsp;&nbsp;码：<input type="password" name="password"><br>
+                <input type="submit" value="提交">&nbsp;&nbsp;
+                <input type="reset" value="重置">
+        </form>
+    </body>
+</html>
