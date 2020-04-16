@@ -1,17 +1,24 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--声明板块，是对我们浏览器声明-->
 <html>
-    <head><!--定义的都是我们某个物体的属性，可是一个物体的属性，也可以是多个物体的属性，在浏览器
+    <head><!--定义的都是我们某个物体的属性，可以是一个物体的属性，也可以是多个物体的属性，在浏览器
     当中是间接的方式显示出来的。-->
         <title>    
             19计算机2班（第二个网页）
         </title><!--title是定义我们网页的标题-->
+        <meta http-equiv="refresh" content="10;url=http://www.baidu.com" charset="utf-8">
+        <!--http-equiv属性定义的是网页操作方式，我们用的是refresh（作用是刷新），content设置
+        的是前面http-equiv这个属性的属性值的具体内容，如刷新时间以及刷新的对象。charset属性
+        设置的是网页的编码-->
+        <link href="19-2.css"   type="text/css" rel="stylesheet">
         <style type="text/css">/* text/javasrcip 这个定义的是javascrip 脚本语言的样式*/
             h2{
                 color: red;
-            }
-        </style>
+            }/*h2 就是上面那个head注释代码所说的物体*/
+        </style><!--我们下面body标记里面的内容的样式（样式就是格式，也就是风格的意思）-->
+
     </head>
-    <body><!--定义一个物体，或者是多个物体。（什么物体，就是在浏览器里面直接显示出来的东西）-->
+    <body><!--在这个里面定义一个物体，或者是多个物体。在这里body起到标识范围的一个作用
+        （什么物体，就是在浏览器里面直接显示出来的东西）-->
         <hr><!--水平线标记--> 
 
         <!--hr标记和我们h2为啥不一样？h2有开始有结束，是成双成对的，我们hr标记是一个单身形象，只有他
