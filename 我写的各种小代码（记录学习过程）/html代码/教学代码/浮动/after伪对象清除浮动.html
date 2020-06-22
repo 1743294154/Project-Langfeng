@@ -4,9 +4,15 @@
         <title>
             after伪对象清除浮动
         </title>
-        
         <style type="text/css">
-
+        
+            .father:after{
+                display: block;
+                clear: both;
+                content: "";
+                visibility: hidden;
+                height: 0;
+            }
 
         </style>
     </head>

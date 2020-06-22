@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            清除浮动成功_floatL
+        </title>
+        <style type="text/css">
+            .two_css:after{
+                content:"";
+                height:0;
+                line-height:0;
+                display:block;
+                clear:both;
+                visibility:hidden;    
+            }
+            .two_css{
+                zoom: 1;
+            }
+            .one_css{
+                background-color: indigo;
+                width: 300px;
+                height: 300px;
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one_css">
+            <div class="two_css">
+
+            </div>
+        </div>
+    </body>
+</html>

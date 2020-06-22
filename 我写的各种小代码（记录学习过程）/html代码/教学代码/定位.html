@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>清除浮动</title>
+		<style type="text/css">
+			/*
+			 * 定位有父级的时候
+			 * 父级：相对定位
+			 * 子级：绝对定位
+			 * 一个定位的元素，如果父级有定位，那么子级使用绝对定位时，都在相对父级定位
+			 * 内联元素有定位，就支持宽高
+			 */
+			#div1{
+				width: 500px;
+				height: 400px;
+				background: yellow;
+				position: relative;
+				
+			}
+			#div2{
+				width: 200px;
+				height: 100px;
+				background: blue;
+				position: absolute;
+				left: 100px;
+				top: 100px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">
+			<div id="div2">
+				
+			</div>
+		</div>
+	</body>
+</html>
