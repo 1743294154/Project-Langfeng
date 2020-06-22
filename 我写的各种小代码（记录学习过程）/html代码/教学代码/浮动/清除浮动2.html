@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>float</title>
+    <!--<link rel="stylesheet" href="//8.url.cn/edu/classroom/assets/lib/reset.css">-->
+    <style type="text/css">
+                /*
+        * 题目要求：
+        * 1、设置卡片的图片高度和宽度为56px
+        * 2、设置卡片的图片元素向左浮动
+        * 3、设置卡片的标题文本超出一行时，展示省略号(...)
+        */
+
+
+        .music-list {
+            max-width: 640px;
+            background: #fff;
+        }
+        .music-item {
+            border-bottom: 1px solid #ccc;
+            padding: 4px;
+        }
+
+
+        /*卡片的图片*/
+        .music-item .item-img {
+            margin-right: 10px;
+            /* TODO: 设置图片的宽高和向左浮动*/
+            width:56px;
+            height:56px;
+            float:left;
+        }
+
+
+        /*创建新的BFC*/
+        .music-item .item-text {
+            /*overflow: hidden;*/
+            /*padding-top: 4px;*/
+        }
+
+
+        .music-item .item-tt {
+            font-size: 18px;
+            color: #000;
+            /* TODO: 设置标题文本超出一行，展示省略号*/
+            overflw:hidden;
+            white-space:nowrap;
+            text-oveorflow:ellipsis;
+        }
+
+
+        .music-item .item-num {
+            font-size: 14px;
+            color: #aaa;
+        }
+        .clearfix::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <!--请在style.css中根据题目要求，完成本次习题-->
+    <ul class="music-list">
+        <li class="music-item clearfix">
+            <img class="item-img" src="http://p1.music.126.net/X1Fy8qf-lW5ibafWWdMqgQ==/18638921115940517.jpg?param=140y140" alt="">
+            <div class="item-text">
+                <p class="item-tt">2017北京电影节看片</p>
+                <span class="item-num">16首</span>
+            </div>
+        </li>
+        <li class="music-item clearfix">
+            <img class="item-img" src="http://p1.music.126.net/nBa1JtD-p71DjCcs8rq_zw==/19146895486173414.jpg?param=140y140" alt="">
+            <div class="item-text">
+                <p class="item-tt">打发打发打发打发打发打发 打发打发打发打发打发打发周杰伦50首精选</p>
+                <span class="item-num">6首</span>
+            </div>
+        </li>
+        <li class="music-item clearfix">
+            <img class="item-img" src="http://p1.music.126.net/uRWX_DCjgs8p6jnFnLWB8A==/18795051767071946.jpg?param=140y140" alt="">
+            <div class="item-text">
+                <p class="item-tt">Good Life</p>
+                <span class="item-num">11首</span>
+            </div>
+        </li>
+        <li class="music-item clearfix">
+            <img class="item-img" src="http://p1.music.126.net/X1Fy8qf-lW5ibafWWdMqgQ==/18638921115940517.jpg?param=140y140" alt="">
+            <div class="item-text">
+                <p class="item-tt">最适合跳舞的歌单</p>
+                <span class="item-num">11首</span>
+            </div>
+        </li>
+        <li class="music-item clearfix">
+            <img class="item-img" src="http://p1.music.126.net/4xdijXBdZJstar2H6KVZLA==/109951162899836972.jpg?param=140y140" alt="">
+            <div class="item-text">
+                <p class="item-tt">韩国大慢摇</p>
+                <span class="item-num">11首</span>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
