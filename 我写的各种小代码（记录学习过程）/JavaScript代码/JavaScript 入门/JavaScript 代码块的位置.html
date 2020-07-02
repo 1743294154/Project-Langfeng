@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript代码块的位置
+        </title>
+        <script>
+            // 公用函数
+            function hello(user){
+                return "<h1>hello,"+ user + "</h1>";//输出参数值
+            }
+        </script>
+    </head>
+    <script>
+        var user = "world";  //全局变量象初始化
+    </script>
+    <body>
+        <script>
+            document.write(hello(user));  //程序执行代码
+        </script>
+    </body>
+</html>
