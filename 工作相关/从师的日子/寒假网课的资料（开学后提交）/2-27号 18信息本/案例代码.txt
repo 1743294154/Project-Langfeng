@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>胡悦</title>
+</head>
+<body>
+<center>
+	静夜思
+    <hr />
+    李白<br />
+    <br />
+窗前明月光，疑是地上霜；<br />
+<br />
+举头望明月，低头思故乡。<br />
+</center>
+</body>
+</html>
