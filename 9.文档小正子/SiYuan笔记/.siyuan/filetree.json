@@ -1,0 +1,55 @@
+{
+  "name": "",
+  "path": "/",
+  "isDir": true,
+  "children": [
+    {
+      "name": "Linux 运维",
+      "path": "/Linux 运维/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "第一章 Linux 入门.md",
+          "path": "/Linux 运维/第一章 Linux 入门.md"
+        }
+      ]
+    },
+    {
+      "name": "华为网络工程",
+      "path": "/华为网络工程/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "第一章 华为网络技术基础.md",
+          "path": "/华为网络工程/第一章 华为网络技术基础.md"
+        }
+      ]
+    },
+    {
+      "name": "思科网络工程",
+      "path": "/思科网络工程/",
+      "isDir": true
+    },
+    {
+      "name": "桌面运维",
+      "path": "/桌面运维/",
+      "isDir": true
+    },
+    {
+      "name": "虚拟化",
+      "path": "/虚拟化/",
+      "isDir": true
+    },
+    {
+      "name": "读书笔记",
+      "path": "/读书笔记/",
+      "isDir": true,
+      "children": [
+        {
+          "name": "七天学会思维导图.md",
+          "path": "/读书笔记/七天学会思维导图.md"
+        }
+      ]
+    }
+  ]
+}

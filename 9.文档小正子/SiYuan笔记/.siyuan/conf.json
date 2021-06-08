@@ -1,0 +1,9 @@
+{
+   "sync": false,
+   "publish": false,
+   "updated": 1623125327465,
+   "refCreateSavePath": "",
+   "createDocNameTemplate": "",
+   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}.md",
+   "dailyNoteTemplatePath": ""
+}
